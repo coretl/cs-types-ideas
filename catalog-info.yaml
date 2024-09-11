@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cs-types-ideas
+  title: cs-types-ideas
+  description: Control System types translations checked with pyright
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:default/beamline-controls

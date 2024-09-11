@@ -1,0 +1,18 @@
+# Changes here will be overwritten by Copier
+_commit: 2.2.0-23-gde15bec
+_src_path: gh:DiamondLightSource/python-copier-template
+author_email: tom.cobb@diamond.ac.uk
+author_name: Tom Cobb
+component_lifecycle: experimental
+component_owner: group:default/beamline-controls
+component_type: library
+description: Control System types translations checked with pyright
+distribution_name: cs-types-ideas
+docker: false
+docs_type: README
+git_platform: github.com
+github_org: coretl
+package_name: cs_types_ideas
+pypi: false
+repo_name: cs-types-ideas
+type_checker: pyright
