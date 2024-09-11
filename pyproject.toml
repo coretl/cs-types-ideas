@@ -50,8 +50,8 @@ name = "Tom Cobb"
 version_file = "src/cs_types_ideas/_version.py"
 
 [tool.pyright]
-typeCheckingMode = "standard"
-reportMissingImports = false  # Ignore missing stubs in imported modules
+typeCheckingMode = "strict"
+reportMissingImports = false # Ignore missing stubs in imported modules
 
 [tool.pytest.ini_options]
 # Run pytest with all our checkers, and don't spam us with massive tracebacks on error

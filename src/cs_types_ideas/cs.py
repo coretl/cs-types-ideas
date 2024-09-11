@@ -39,9 +39,11 @@ class CSValue[T]:
             time.sleep(interval)
             yield self.get()
 
+    # And many other methods...
+
 
 # The sort of things we can send over HTTP
-HTTPType = TypeVar("HTTPType", bound=str | int | Enum | npt.NDArray)
+HTTPType = TypeVar("HTTPType", bound=str | int | Enum | npt.NDArray[np.float64])
 
 
 def convert_to(datatype: type[HTTPType], value: Any) -> HTTPType: ...
